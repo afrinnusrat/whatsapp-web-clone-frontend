@@ -6,7 +6,7 @@ This project reference from [https://www.youtube.com/watch?v=gzdQDxzW2Tw](https:
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Firebase Setup
+## `Firebase Setup`
 
 1. Add Project
 2. Create a project with the name `whatsapp-web-clone-mern`, click `Continue` button
