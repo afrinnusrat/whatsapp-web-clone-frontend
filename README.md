@@ -49,4 +49,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 2. Install Material-UI `$ npm install @material-ui/core`
 3. Type `Icons` in the `Search...` box
 4. Install Material Icons `$ npm install @material-ui/icons`
-5. Click `search the full list of these icons.` link for search what icons we need.
+5. Click `search the full list of these icons.` link for search what icons we looking for.
+6. Type `chat` in the `Search icons...` box to search chat icon
+7. Choose the first one
+8. Copy the script `import ChatIcon from '@material-ui/icons/Chat';` and paste to Sidebar.js
+9. Find another icon like DonutLargeIcon and MoreVertIcon.
