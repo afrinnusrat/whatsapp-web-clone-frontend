@@ -7,11 +7,13 @@ function App() {
   return (
     // BEM class naming
     <div className="app">
-      {/* Sidebar Component */}
-      <Sidebar />
+      <div className="app__body">
+        {/* Sidebar Component */}
+        <Sidebar />
 
-      {/* Chat Component */}
-      <Chat />
+        {/* Chat Component */}
+        <Chat />
+      </div>
     </div>
   );
 }
