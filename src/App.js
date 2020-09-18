@@ -6,6 +6,10 @@ function App() {
     // BEM class naming
     <div className="app">
       <h1>Test</h1>
+
+      {/* Sidebar Component */}
+
+      {/* Chat Component */}
     </div>
   );
 }
