@@ -6,6 +6,17 @@ This project reference from [https://www.youtube.com/watch?v=gzdQDxzW2Tw](https:
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## FRONTEND STACK
+
+- React.JS
+- Firebase for hosting
+
+## BACKEND STACK
+
+- Express.js
+- MongoDB Cloud Database
+- Heroku for hosting the backend
+
 ## `Firebase Setup`
 
 1. Add Project
