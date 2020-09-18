@@ -32,3 +32,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 11. Skip part of Deploy to Firebase Hosting, because we will deploy to firebase after the app done
 12. Click `Continue to the console`
 13. DONE
+
+## `Firebase Config File`
+
+1. Open firebase console
+2. Click `Setting Icon` button and then click `Setting Project`
+3. Go down and find <b>Firebase SDK Snippet</b> area
+4. Click `Config` radio button
+5. Copy the entire script in the Config box
+6. Create `firebase.js` file in the src folder
+7. Paste the Config file from step 5
