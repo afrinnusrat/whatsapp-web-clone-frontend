@@ -42,3 +42,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 5. Copy the entire script in the Config box
 6. Create `firebase.js` file in the src folder
 7. Paste the Config file from step 5
+
+## `Install Material-UI`
+
+1. Open Material-UI page [https://material-ui.com/](https://material-ui.com/)
+2. Install Material-UI `$ npm install @material-ui/core`
+3. Type `Icons` in the `Search...` box
+4. Install Material Icons `$ npm install @material-ui/icons`
+5. Click `search the full list of these icons.` link for search what icons we need.
