@@ -102,3 +102,5 @@ channel.bind('my-event', function(data) {
 
 1. Install axios `$ npm i axios`
 2. Create a axios.js file
+
+![Screenshot Whatsapp web clone](https://github.com/wildenali/whatsapp-web-clone-frontend/blob/master/screenshoot-whatsapp-web-clone.PNG)
