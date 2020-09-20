@@ -37,6 +37,7 @@ function Chat({ messages }) {
             <span className="chat__timestamp">{message.timestamp}</span>
           </p>
         ))}
+      </div>
 
       <div className="chat__footer">
         <InsertEmotIcon />
