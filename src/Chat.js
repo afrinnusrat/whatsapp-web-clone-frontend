@@ -37,24 +37,6 @@ function Chat({ messages }) {
             <span className="chat__timestamp">{message.timestamp}</span>
           </p>
         ))}
-        <p className="chat__message">
-          <span className="chat__name">Murta</span>
-          This is a message
-          <span className="chat__timestamp">{new Date().toUTCString()}</span>
-        </p>
-
-        <p className="chat__message chat__receiver">
-          <span className="chat__name">Ali</span>
-          This is a message
-          <span className="chat__timestamp">{new Date().toUTCString()}</span>
-        </p>
-
-        <p className="chat__message">
-          <span className="chat__name">Wilden</span>
-          This is a message
-          <span className="chat__timestamp">{new Date().toUTCString()}</span>
-        </p>
-      </div>
 
       <div className="chat__footer">
         <InsertEmotIcon />
