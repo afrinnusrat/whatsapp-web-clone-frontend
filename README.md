@@ -54,3 +54,27 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 7. Choose the first one
 8. Copy the script `import ChatIcon from '@material-ui/icons/Chat';` and paste to Sidebar.js
 9. Find another icon like DonutLargeIcon and MoreVertIcon.
+
+## `PUSHER`
+
+Do this after you done with whatsapp-web-clone-backend point `## Install CORS` no 1 or after do git `Install cors, for security`
+
+1. Open [https://pusher.com/](https://pusher.com/)
+2. Sign in / Sign up
+3. Going to your project `whatsapp-web-clone`
+4. Click `Getting Started`
+5. Copy some script in the file index.html, see in the following below<br/>
+   and paste to App.js and edit litle bit
+
+```
+var pusher = new Pusher('5967c078021a0ed38791', {
+  cluster: 'ap1'
+});
+
+var channel = pusher.subscribe('my-channel');
+channel.bind('my-event', function(data) {
+  alert(JSON.stringify(data));
+});
+```
+
+6. Install pusher `$ npm i pusher-js`
