@@ -42,7 +42,7 @@ function App() {
         <Sidebar />
 
         {/* Chat Component */}
-        <Chat />
+        <Chat messages={messages} />
       </div>
     </div>
   );
