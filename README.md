@@ -78,3 +78,22 @@ channel.bind('my-event', function(data) {
 ```
 
 6. Install pusher `$ npm i pusher-js`
+7. Test the pusher
+
+- Open postman
+- Setup to POST request
+- Fill the request url with `http://localhost:5000/messages/new`
+- Click `Body` > `raw` > change form `Text` to `JSON(application/json)`
+- Fill with
+
+```
+{
+	"message": "heeey anjaay it works",
+	"name": "Mang Ali",
+	"timestamp": "Im a demo timestamp...",
+  "received": false
+}
+```
+
+- Click `Send` button
+- Have a look for result
