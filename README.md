@@ -97,3 +97,8 @@ channel.bind('my-event', function(data) {
 
 - Click `Send` button
 - Have a look for result
+
+## `Axios`
+
+1. Install axios `$ npm i axios`
+2. Create a axios.js file
